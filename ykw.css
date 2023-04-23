@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+}
+
+.main-container {
+    width: 50%;
+    margin: auto;
+    height: inherit;
+    background-image: linear-gradient(to bottom, #f08080, #f8ad9d);
+    padding: 20px 30px;
+}
+
+.bi {
+    font-size: 100px;
+}
+
+.first-division {
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.icons {
+    width: 10%;
+}
+
+.icons span {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.center {
+    width: 40%;
+    margin: 0 20px;
+    border-right: 3px solid darkblue;
+}
+
+.right {
+    width: 40%;
+    margin: auto;
+    gap: 10px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 10px;
+}
+
+span {
+    text-align: center;
+}
+
+.second-division {
+    border-top: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+table {
+    margin: 0 20px;
+}
+
+tr {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+tr span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+td {
+    font-size: 13px;
+}
+
+.third {
+    gap: 50px;
+}
+
+.third-table {
+    padding-left: 30px;
+}
+
+.third-table tr {
+    padding: 8px;
+}
+
+.third-table td:nth-of-type(odd) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-table tr:nth-of-type(odd) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-table-border {
+    border-left: 3px solid darkblue;
+}
+
+.fourth {
+    justify-content: space-evenly;
+}
+
+.fourth p {
+    text-align: center;
+}
+
+.fourth .bi {
+    font-size: 60px;
+}
+
+.last-division {
+    width: 80%;
+    margin: auto;
+}
